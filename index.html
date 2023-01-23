@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <title>Muslim Prayer Times - IshtiaqSyed.com</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="reset.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="layout.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="mobile.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="css.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <style>
+        .flipX video::-webkit-media-text-track-display {
+            transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+        }
+
+        .flipXY video::-webkit-media-text-track-display {
+            transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+        }
+
+        .flipXYX video::-webkit-media-text-track-display {
+            transform: matrix(1, 0, 0, -1, 0, 0) !important;
+        }</style>
+    <style>
+        @keyframes blinkWarning {
+            0% {
+                color: red;
+            }
+            100% {
+                color: white;
+            }
+        }
+
+        @-webkit-keyframes blinkWarning {
+            0% {
+                color: red;
+            }
+            100% {
+                color: white;
+            }
+        }
+
+        .blinkWarning {
+            -webkit-animation: blinkWarning 1s linear infinite;
+            -moz-animation: blinkWarning 1s linear infinite;
+            animation: blinkWarning 1s linear infinite;
+        }</style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="https://quran.com" target="_blank">Quran</a></li>
+        <li><a href="https://quranicaudio.com" target="_blank">Audio</a></li>
+        <li class="active">Salah</li>
+        <li><a href="https://sunnah.com" target="_blank">Sunnah</a></li>
+    </ul>
+</nav>
+<div id="main">
+    <h1>Salah</h1>
+
+    <dl id="times">
+        <dt>Fajr</dt>
+        <dd id="Fajr">
+            <span>6:14</span>AM
+        </dd>
+        <dt class="sp">Sunrise</dt>
+        <dd class="sp" id="Sunrise">
+            <span>7:27</span>AM
+        </dd>
+        <dt>Dhuhr</dt>
+        <dd id="Dhuhr">
+            <span>12:34</span>PM
+        </dd>
+        <dt>Asr</dt>
+        <dd id="Asr">
+            <span>3:21</span>PM
+        </dd>
+        <dt>Maghrib</dt>
+        <dd id="Maghrib">
+            <span>5:40</span>PM
+        </dd>
+        <dt>Isha</dt>
+        <dd id="Isha">
+            <span>6:54</span>PM
+        </dd>
+        <dt class="sp">Qiyam</dt>
+        <dd class="sp" id="Qiyam">
+            <span>2:27</span>AM
+        </dd>
+    </dl>
+
+    <h2><img src="geo.svg"><span>Charlotte, NC</span></h2>
+    <h4><span>Method</span> Islamic Society of North America</h4>
+    <div id="footer">Copyright © 2023 IshtiaqSyed.com. All rights reserved.</div>
+</div>
+
+</body>
+</html>
